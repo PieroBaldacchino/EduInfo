@@ -9,9 +9,8 @@
     padding:0;
 }
 .contenitore{
-    height: 100vh;
     width: 100%;
-    position: absolute;
+    height: fit-content;
 }
 ::-webkit-scrollbar {
     display: none;
