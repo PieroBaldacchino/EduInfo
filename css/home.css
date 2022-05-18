@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.body{
+    margin:0;
+    padding:0;
+}
+.contenitore{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.logo{
+    padding: 10px;
+    font-size: 50px;
+    cursor:default;
+}
+.sidebar{
+    min-height: 100vh;
+    position: absolute;
+    width: 15%;
+}
+.sidebar h1{
+    color:#fff;
+}
+.sidebar li, .sidebar a{
+    color: #fff;
+	cursor: pointer;
+	display: block;
+    background: transparent;
+    transition: all 1s;
+    text-decoration: none;
+    color:#fff;
+}
+.sidebar li:hover, .sidebar a:hover{
+    background-color: green;
+    color: black;
+}
+.nav{
+    padding-top: 50%;
+    padding-bottom: 48vh;
+}
+.content{
+    width:85%;
+    min-height: 100vh;
+    position: absolute;
+    margin-left: 15%;
+}
+.login{
+    position:fixed;
+    bottom:0;
+    width: 10%;
+    right:0;
+}
+.login .log{
+    color: #fff;
+	cursor: pointer;
+	display: block;
+    text-decoration: none;
+    padding:20px;
+    border-radius: 10px;
+    background-color: #198754;
+    transition: all 0.2s;
+}
+.login .log:hover{
+    background-color: #167247;
+    color:#fff;
+}
+
+.title{
+    position: absolute;
+    background-image: url("../img/eco-op1.jpg");
+    size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top:20%;
+    font-size: 100px;
+    cursor:default;
+}
+.btn-circle.btn-sm{
+    display: block;
+    position:fixed;
+    right:0;
+    bottom:10vh;
+    margin:20px;
+    width: 50px;
+    height: 50px;
+    padding: 6px 0px;
+    border-radius: 20px;
+    font-size: larger;
+    text-align: center;
+  }
+  
+.top:hover {
+    background-color: #555;
+}
+
+.differenziata{
+    
+}
